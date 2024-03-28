@@ -1,5 +1,6 @@
 export async function postUserRegistration(firstName : string, lastName : string, email : string, password: string) {
     let response;
+    
     try {
       
         response = await fetch(`https://ututor-backend-816f9a0da7be.herokuapp.com/api/v1/register`, {
